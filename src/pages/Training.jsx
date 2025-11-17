@@ -36,7 +36,7 @@ export default function Training() {
           <h1 className="text-3xl md:text-4xl font-semibold">Master the Stack: 6-Month Roadmaps for Cyber Security and DevOps Career Transformation.</h1>
           <div className="mt-10 grid md:grid-cols-2 gap-6">
             {programs.map((p) => (
-              <div key={p.title} className="border border-[#333] rounded p-6 hover:bg-white hover:text-black transition duration=200 hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]">
+              <div key={p.title} className="border border-[#333] rounded p-6 hover:bg-white hover:text-black transition duration-200 hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]">
                 <h3 className="text-lg font-medium">{p.title}</h3>
                 <p className="mt-2 text-sm text-current/80">{p.duration}</p>
                 {p.tech && <p className="mt-2 text-sm text-current/80"><span className="text-current">Tools:</span> {p.tech}</p>}
